@@ -248,7 +248,7 @@ contract ARGANO is ERC20, ERC20Detailed, Ownable {
   
   constructor () ERC20Detailed("Argano", "AGO", 18) {
       owner = msg.sender;
-    _totalSupply = 52000000 *(10**uint256(18));
+    _totalSupply = 65000000 *(10**uint256(18));
 
     
 	_balances[msg.sender] = _totalSupply;
